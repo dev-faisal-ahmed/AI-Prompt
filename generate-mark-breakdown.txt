@@ -1,0 +1,36 @@
+# I need to implement a function
+- That takes input 
+	- marks object which type Record<string, number>
+	- SubjectType => CQ_MCQ, CQ_MCQ_PRACTICAL, WRITTEN_FULL, WRITTEN_HALF
+
+Now based on that marks object has keys like => cq, mcq, practical, written
+
+- When Subject Type 
+	CQ_MCQ => 
+		cq full marks => 70 and pass marks is 23,
+		mcq full marks => 30 and pass marks is 10
+
+	CQ_MCQ_PRACTICAL => 
+		cq full => 50. pass => 17
+		mcq full => 25, pass => 8 
+		practical full => 25, pass => 8 
+	
+	Written Full => 
+		written full => 100, pass 33
+	
+	Written Half => 
+		written full => 50, pass 17
+
+
+Now based on that generate me an object of array where I enter marks, subjectType 
+
+and I will get return as a result => 
+
+{
+	title : cq,
+	obtainedMarks: 
+	totalMarks: 
+	passMarks:  
+}
+	
+can you generate me this function with clean and readable with performance in mind
